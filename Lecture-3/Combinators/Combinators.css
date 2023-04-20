@@ -1,0 +1,32 @@
+.first p{
+    color:crimson;
+    background-color: cadetblue;
+    border-style: groove;
+    border-color: darkgoldenrod;
+    border-width: 20px;
+}
+
+div > p{
+    color:blue;
+    background-color:palegoldenrod;
+    border-style:double;
+    border-color:hotpink;
+    border-width: 20px;
+}
+
+h4 + p{
+    color:crimson;
+    background-color: darkgoldenrod;
+    border-style: inset;
+    border-color: cornflowerblue;
+    border-width: 20px;
+}
+
+h3 ~ p{
+    color:springgreen;
+    background-color: burlywood;
+    border-style: outset;
+    border-color: magenta;
+    border-width: 20px;
+}
+
