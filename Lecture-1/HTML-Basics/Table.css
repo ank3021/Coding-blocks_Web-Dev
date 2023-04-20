@@ -1,0 +1,29 @@
+#first{
+    color:deeppink;
+    font-size:x-large;
+    background-color: cadetblue;
+    display: inline;
+}
+
+#hi{
+    color:black;
+    font-size:larger;
+    background-color:firebrick;
+}
+
+#second{
+    color:crimson;
+    font-size: x-large;
+    background-color:darkorange;
+    display: inline;
+}
+
+#hello{
+    color:black;
+    font-size: larger;
+    background-color: green;
+}
+
+html{
+    background-color: aquamarine;
+}

@@ -1,0 +1,26 @@
+h1{
+    color: aquamarine;
+    font-size: 2em;
+    background-color: rgb(89, 96, 13);
+}
+
+p{
+    color: darkgreen;
+    font-size: 1.8em;
+    background-color: coral;
+}
+
+ol{
+    color: darkcyan;
+    font-size: 1.6em;
+    background-color: darksalmon;
+
+}
+
+ul{
+    color: crimson;
+    font-size: 1.2em;
+    background-color: darkorange;
+    width: 90%;
+}
+

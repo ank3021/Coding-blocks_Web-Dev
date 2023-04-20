@@ -1,0 +1,24 @@
+h1{
+    color:olive;
+    font-size: 1.8em;
+    background-color:indianred;
+}
+
+p{
+    color:chartreuse;
+    font-size: 1.6em;
+    background-color: chocolate;
+}
+
+ul{
+    color: fuchsia;
+    font-size: 1.5em;
+    background-color: darkgray;
+}
+
+ol{
+    color:darkturquoise;
+    font-size: 1.4em;
+    background-color: darkviolet;
+    width: 95%;
+}
