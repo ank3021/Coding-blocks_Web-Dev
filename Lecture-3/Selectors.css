@@ -1,0 +1,34 @@
+.hello{
+    display:inline-flex;
+    color: darkorchid;
+    font-size: x-large;
+    background-color: aquamarine;
+}
+
+#para1{
+    display: inline;
+    color:brown;
+    font-size: 1.8em;
+    background-color: coral;
+}
+
+#para2{
+    display: inline;
+    color: darkgoldenrod;
+    font-size: 1.6em;
+    background-color:lightblue;
+}
+
+#para3{
+    display: inline;
+    color: cornflowerblue;
+    font-size: 1.4em;
+    background-color: lightpink;
+}
+
+#para4{
+    display: inline;
+    color: mediumorchid;
+    font-size: 1.2em;
+    background-color:lightcoral;
+}
