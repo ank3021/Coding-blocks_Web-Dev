@@ -1,0 +1,36 @@
+#goal:hover{
+    font-size: x-large;
+    color: darkorange;
+    background-color: darkcyan;
+    font-style:italic;
+}
+
+p:active{
+    font-size: larger;
+    color: purple;
+    background-color: lightsalmon;
+    font-style: oblique;
+}
+
+div p{
+    font-size: xx-large;
+    color: dodgerblue;
+    background-color: gray;
+    font-style: unset;
+    border-style: inset;
+    border-radius: 20px;
+    border-width: 20px;
+    border-color: darkred;
+}
+
+#b:hover{
+    color: crimson;
+    background-color: burlywood;
+    font-size: larger;
+    font-style:italic;
+    border-style: groove;
+    border-radius: 25px;
+    border-width: 20px;
+    border-color: darkviolet;
+
+}
