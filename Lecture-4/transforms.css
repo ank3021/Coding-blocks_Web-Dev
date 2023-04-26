@@ -1,0 +1,15 @@
+div>p{
+    margin: 80px;
+    color: crimson;
+    background-color: chocolate;
+    font-size: 25px;
+    border-radius: 15px;
+    border-width: 15px;
+    border-style: ridge;
+    border-color: blueviolet;
+    height: 10vh;
+    width: 15vw;
+    transform: skewX(20deg) skewY(15deg) rotateX(20deg) rotateY(30deg) scaleX(1.2) scaleY(2) translateX(450px) translateY(-70px);
+    
+
+}
