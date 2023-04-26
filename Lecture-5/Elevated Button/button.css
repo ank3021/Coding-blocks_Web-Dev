@@ -1,0 +1,26 @@
+.butt{
+    margin: 40px;
+    padding: 15px;
+    color: brown;
+    background-color: darkorange;
+    border-radius: 10px;
+    border-width: 15px;
+    border-style: inset;
+    border-color: burlywood;
+    width: 90px;
+    box-shadow: black 12px 12px 12px;
+    transition: 1s;
+
+}
+
+.butt:hover{
+    transform: translate(-10px, -10px);
+    box-shadow: black 22px 22px 22px;
+    transition: 0.5s;
+}
+
+.butt:active{
+    transform: translate(10px, 10px);
+    box-shadow: black 5px 5px 5px;
+    transition: 0.3s;
+}
