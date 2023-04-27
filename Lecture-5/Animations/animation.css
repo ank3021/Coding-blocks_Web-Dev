@@ -1,0 +1,94 @@
+h2{
+    color: mediumblue;
+}
+
+.hello{
+    height: 80vh;
+    width: 65vw;
+    color: coral;
+    background-color: chartreuse;
+    margin: 15px;
+
+}
+
+.hello:active #one{
+    animation-play-state: running;
+}
+
+.hi{
+    height: 80px;
+    width: 80px;
+    margin: 80px;
+    background-color: crimson;
+    display: inline-block;
+    animation: bounce 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce{
+    0%{
+        background-color: darkorange;
+    }
+
+    50%{
+        transform: translateY(350px);
+        background-color: crimson;
+    }
+
+    100%{
+
+     background-color: darkorange;
+
+    }
+}
+
+
+
+#two{
+    animation-timing-function: ease-out;
+   
+}
+
+#three{
+    animation-timing-function: ease-in-out;
+    
+}
+
+#four{
+    animation-timing-function: linear;
+   
+}
+
+#one{
+    background-color: mediumturquoise;
+    height:50px;
+    width: 50px;
+    animation: bounce;
+    animation-name: my-animation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position:relative;
+    top:200px;
+    animation-play-state: paused;
+}
+
+@keyframes my-animation {
+    0%{
+
+    }
+
+    10%{
+        transform: translateX(800px);
+        background-color: magenta;
+    }
+
+    100%{
+
+    }
+    
+}
+
+html{
+    background-color:darkorchid;
+}
