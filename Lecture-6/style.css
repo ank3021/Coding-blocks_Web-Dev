@@ -1,0 +1,31 @@
+.container{
+    height: 40vh;
+    width: 45vw;
+    margin: 15px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+    align-items:flex-start;
+
+    align-content:space-around;
+
+}
+
+.item{
+    height: 50px;
+    width: 55px;
+    margin: 15px;
+    background-color: blueviolet;
+    color: darkgoldenrod;
+    border: 5px;
+    border-radius: 5px;
+    border-style: inset;
+    border-color: chartreuse;
+}
+
+#hi{
+    height: 65px;
+    width: 55px;
+}
