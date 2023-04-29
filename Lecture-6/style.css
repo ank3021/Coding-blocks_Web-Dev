@@ -14,9 +14,9 @@
 }
 
 .item{
-    height: 50px;
-    width: 55px;
-    margin: 15px;
+    height: 15%;
+    width: 8%;
+    margin: 2%;
     background-color: blueviolet;
     color: darkgoldenrod;
     border: 5px;
@@ -28,4 +28,66 @@
 #hi{
     height: 65px;
     width: 55px;
+}
+
+/*max-width should always be used in descending order.*/
+@media(max-width:1100px){
+    .container{
+        background-color: darkmagenta;
+        border: 5px;
+        border-radius: 3px;
+        border-style: inset;
+        border-color: cyan;
+    }
+    .item{
+        background-color:darkgreen;
+    }
+}
+
+@media(max-width:800px){
+    .container{
+        background-color: burlywood;
+        border: 5px;
+        border-radius: 3px;
+        border-style:outset;
+        border-color:chocolate;
+    }
+    .item{
+        background-color:brown;
+    }
+}
+
+@media(max-width:500px){
+    .container{
+        background-color: aquamarine;
+        border: 5px;
+        border-radius: 3px;
+        border-style:double;
+        border-color:darkorange;
+    }
+    .item{
+        background-color:rgb(210, 30, 174);
+    }
+}
+
+/*min-width should always be used in ascending order.*/
+@media(min-width:400px){
+    .item{
+        font-style: italic;
+        color: cadetblue;
+    }
+}
+
+@media(min-width:600px){
+    .item{
+        font-style: oblique;
+        color: hotpink;
+    }
+}
+
+@media(min-width:900px){
+    .item{
+        font-style: unset;
+        color: darkblue;
+    }
 }
