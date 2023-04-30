@@ -1,0 +1,41 @@
+.container{
+    height: 45vh;
+    width: 30vw;
+    margin: 20px;
+    background-color: coral;
+    border: 10px;
+    border-radius: 5px;
+    border-style: inset;
+    border-color:deeppink;
+    z-index:-10;
+}
+
+.item{
+    height: 10%;
+    width: 10%;
+    margin: 20px;
+    background-color: darkgoldenrod;
+    color: darkgreen;
+    font-size: 1.4em;
+    font-style: italic;
+    border: 10px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: blueviolet;
+
+}
+
+.container.one > .item.three{
+    position: fixed;
+    left: 25px;
+    z-index:5;
+   
+}
+
+/*.container.one{
+    z-index: -10;
+}
+
+.container.two{
+    z-index: 10;
+}*/
