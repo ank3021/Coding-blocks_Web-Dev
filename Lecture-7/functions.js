@@ -47,4 +47,19 @@ function area(height, width){
     }
 }
 
+function hello(){
+    console.log("I am here !!!");
+    let n = arguments.length
+    let i = 0;
+    while (i <= n - 1)
+    {
+        let a = i + 1;
+        console.log("The " + a + " argument is: " + arguments[i]);
+        ++i;
+    }
+}
+
+hello(1,2,3,4);//In JavaScript, any number of arguments can be passed in the declared functions.
+hello("Ankit", "Kashyap");
+
 
