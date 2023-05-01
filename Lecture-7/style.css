@@ -25,17 +25,16 @@
 
 }
 
+
+/*Position can be of five types- static, relative, absolute, fixed, sticky.*/
 .container.one > .item.three{
-    position: fixed;
-    left: 25px;
+    position: relative;
+    left: 125px;
+    bottom: 50px;
     z-index:5;
    
 }
 
 /*.container.one{
-    z-index: -10;
-}
-
-.container.two{
-    z-index: 10;
+    z-index:20;
 }*/

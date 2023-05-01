@@ -10,6 +10,7 @@ if ((x == true) && (z != null))
 
 else if ((x == true) && (z == null))
 {
+    console.log("The user clicked yes !!!");
     console.log("The user didn't provided the name !!!");
 }
 
@@ -70,32 +71,3 @@ else if (typeof i === `undefined`)
 {
     console.log("The data type of input is undefined !!!");
 }
-
-
-
-//Function Hoisting in JavaScript
-greetings();
-
-
-
-//Function in JavaScript
-function greetings()
-{
-    console.log("Hello there, have a nice day !!!!");
-}
-
-
-//When Function is declared using let, var and const, then that function is not hoisted in the browser window.
-let win = function(input){
-    if (input === 'win')
-    {
-        console.log("You won the game !!!");
-    }
-    else
-    {
-        console.log("You lost the game !!!");
-    }
-}
-
-win('win');
-
