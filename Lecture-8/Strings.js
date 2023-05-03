@@ -53,7 +53,7 @@ console.log(result);
 let ans = h.indexOf('good');//It returns the first index of occurence of the string literal in the input string.
 console.log(ans);
 
-let ans2 = h.lastIndexOf('o');//It returns the first index of occurence of the string literal in the input string from the backward direction.
+let ans2 = h.lastIndexOf('o');//It returns the last index of occurence of the string literal in the input string.
 console.log(ans2);
 
 

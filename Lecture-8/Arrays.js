@@ -6,7 +6,7 @@ console.log(arr[1]);
 console.log("This is a new array - ");
 
 
-//Arrays Objects can contain elements of different data types.
+//Arrays Objects can contain elements of different data types. It also has dynamic length allocation.
 let a = ["Good Morning", 8, true, 98, "Good Night"];
 let i = 0;
 while (i <= a.length - 1)

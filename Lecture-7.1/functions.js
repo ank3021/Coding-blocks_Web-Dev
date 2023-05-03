@@ -59,7 +59,7 @@ function hello(){
     }
 }
 
-hello(1,2,3,4);//In JavaScript, any number of arguments can be passed in the declared functions.
+hello(1,2,3,4);//In JavaScript, any number of arguments can be passed in the declared functions. So, polymorphism works using conditional statements.
 hello("Ankit", "Kashyap");
 
 
