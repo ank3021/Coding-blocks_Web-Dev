@@ -62,3 +62,50 @@ console.log(f);
 console.log("The array after reverse operation is: " + a.reverse());//It reverses the elements in the input array.
 
 
+
+//Loops in Arrays
+
+//There are three types of for loops: for loop, for-of loop, for-in loop.
+
+//for loop
+let container = ["Battle", 'War', 5, true];
+
+for (let i = 0; i <= container.length - 1; ++i)
+{
+    console.log(container[i]);
+}
+
+//for of loop
+
+container = ["India", 'USA', 7, false];
+
+for (let val of container)// It accesses the values/elements of the container array.
+
+{
+   console.log(val);
+}
+
+//for in loop
+
+container = ["Chole Bhature", 'Maggie', 20, true];
+
+for (let j in container)// It accesses the keys/indices of the elements of the object.
+{
+    console.log(container[j]);
+}
+
+
+//while loop
+
+container = ["Mount Everest", 'Himalayas', 15, false];
+
+let k = 0;
+while (k <= container.length - 1)
+{
+    console.log(container[k]);
+    ++k;
+}
+
+//The do-while loop gets executed at least once in the program, even if the condition evaluates to false.
+
+
