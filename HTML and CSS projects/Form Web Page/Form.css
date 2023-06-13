@@ -1,0 +1,53 @@
+html{
+    background-color: aquamarine;
+}
+
+h2{
+    color: darkmagenta;
+}
+
+img:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.5s;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: inset;
+    border-color: chartreuse;
+}
+
+#details{
+    text-align: center;
+    background-color: darkgoldenrod;
+}
+
+p{
+    color:crimson;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+input{
+    color: green;
+    font-size: 1.2em;
+}
+
+button{
+    color: cornflowerblue;
+    font-size: 1.3em;
+    background-color: darksalmon;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: darkorange;
+    border-style: ridge;
+}
+
+button:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1s;
+}
+
+#submit{
+    color: limegreen;
+}
