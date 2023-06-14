@@ -1,0 +1,132 @@
+html{
+    background-color: aquamarine;
+
+}
+
+h2{
+    color: darkorchid;
+    background-color: darkorange;
+    font-size: 1.5em;
+    font-style: italic;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: groove;
+    border-color: brown;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.5s;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: inset;
+    border-color:mediumvioletred;
+}
+
+#first{
+    color: goldenrod;
+    font-size: 1.2em;
+    background-color: mediumspringgreen;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: inset;
+    border-color: coral;
+    text-align: center;
+    position:relative;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
+
+    
+}
+
+#second{
+    color: orange;
+    font-size: 1.2em;
+    background-color: purple;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: double;
+    border-color: mediumpurple;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+#third{
+    color:olive;
+    font-size: 1.2em;
+    background-color: cadetblue;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: outset;
+    border-color: tomato;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+#container1{
+    background-image: url("https://images.moneycontrol.com/static-mcnews/2020/01/1-2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 80vw;
+    height: 80vh;
+    margin-left: 10%;
+
+}
+
+#container1:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.5s;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: inset;
+    border-color: blueviolet;
+}
+
+#container2{
+    background-image: url("https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/09/27/2227863-untitled-design-2022-06-10t134809.134.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    width: 80vw;
+    height: 80vh;
+    margin-left: 10%;
+}
+
+#container2:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.5s;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: double;
+    border-color:goldenrod;
+}
+
+#container3{
+    background-image: url("https://www.deccanherald.com/sites/dh/files/articleimages/2022/05/14/img-20211026-wa0074-1-1109044-1652501213.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 80vw;
+    height: 80vh;
+    margin-left: 10%;
+}
+
+#container3:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.5s;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: mediumvioletred;
+}
