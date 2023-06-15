@@ -76,7 +76,7 @@ h2:hover{
 #container1{
     background-image: url("https://images.moneycontrol.com/static-mcnews/2020/01/1-2.jpg");
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
     width: 80vw;
     height: 80vh;
     margin-left: 10%;

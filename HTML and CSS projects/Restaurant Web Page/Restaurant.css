@@ -1,0 +1,105 @@
+h2{
+    color: rgb(73, 20, 220);
+    font-size: 1.4em;
+    background-color: chocolate;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.5s;
+    border-radius: 10px;
+    border-style: inset;
+    border-width: 10px;
+    border-color: darkmagenta;
+}
+
+
+#container1{
+    background-color: darkorange;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+#first:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.5s;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: groove;
+    border-color: darkcyan;
+}
+
+#container2{
+    background-color: darkkhaki;
+    color:darkmagenta;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#second:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.5s;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style:ridge;
+    border-color: green;
+}
+
+#third:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.5s;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style:outset;
+    border-color:goldenrod;
+}
+#fourth{
+    font-size: 1.4em;
+    padding-bottom: 20px;
+}
+
+#fifth{
+    font-size: 1.2em;
+
+}
+
+#sixth{
+    font-size: 1.2em;
+    padding-top: 45px;
+}
+
+#seventh{
+    font-size: 1.2em;
+    color:teal;
+}
+
+#eight{
+    font-size: 1.2em;
+    color:teal;
+}
+
+#desc{
+    color:darkgreen;
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+
+#ninth {
+    color: mediumblue;
+    background-color: darkgrey;
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
