@@ -17,7 +17,7 @@ h2{
 }
 
 h2:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.5s;
     border-radius: 10px;
@@ -84,7 +84,7 @@ h2:hover{
 }
 
 #container1:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.5s;
     border-radius: 10px;
@@ -103,7 +103,7 @@ h2:hover{
 }
 
 #container2:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.5s;
     border-radius: 10px;
@@ -122,7 +122,7 @@ h2:hover{
 }
 
 #container3:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.5s;
     border-radius: 10px;

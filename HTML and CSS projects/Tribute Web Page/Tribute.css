@@ -16,7 +16,7 @@ div{
 
 
 img:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(-10px, -10px);
     transition: 1.5s;
     border-color:chocolate;

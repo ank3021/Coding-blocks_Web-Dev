@@ -7,7 +7,7 @@ h2{
 }
 
 img:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.5s;
     border-radius: 10px;
@@ -43,7 +43,7 @@ button{
 }
 
 button:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1s;
 }

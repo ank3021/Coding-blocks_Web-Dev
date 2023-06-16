@@ -13,7 +13,7 @@ h2{
 }
 
 h2:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.5s;
     border-radius: 10px;
@@ -34,7 +34,7 @@ h2:hover{
 }
 
 #first:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.5s;
     border-radius: 10px;
@@ -54,7 +54,7 @@ h2:hover{
 }
 
 #second:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.5s;
     border-radius: 10px;
@@ -64,7 +64,7 @@ h2:hover{
 }
 
 #third:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.5s;
     border-radius: 10px;
@@ -128,11 +128,17 @@ h2:hover{
 }
 
 #butt1:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.2s;
     border-style: inset;
     border-color: darkred;
+}
+
+#butt1:active{
+    box-shadow: black 5px 5px 5px;
+    transform: translate(3px 3px);
+    transition: 0.5s;
 }
 
 #butt2{
@@ -146,12 +152,18 @@ h2:hover{
 }
 
 #butt2:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.2s;
     border-style: inset;
     border-color: darkred;
 
+}
+
+#butt2:active{
+    box-shadow: black 5px 5px 5px;
+    transform: translate(3px 3px);
+    transition: 0.5s;
 }
 
 #butt3{
@@ -164,11 +176,17 @@ h2:hover{
 }
 
 #butt3:hover{
-    box-shadow: 15px 15px 15px;
+    box-shadow: black 15px 15px 15px;
     transform: translate(10px 10px);
     transition: 1.2s;
     border-style: inset;
     border-color: darkred;
 
+}
+
+#butt3:active{
+    box-shadow: black 5px 5px 5px;
+    transform: translate(3px 3px);
+    transition: 0.5s;
 }
 
