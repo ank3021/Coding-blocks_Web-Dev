@@ -118,3 +118,57 @@ h2:hover{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+#butt1{
+    background-color:lightgreen;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: double;
+    border-color: orangered;
+}
+
+#butt1:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.2s;
+    border-style: inset;
+    border-color: darkred;
+}
+
+#butt2{
+    background-color: lightgreen;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: double;
+    border-color: orangered;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#butt2:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.2s;
+    border-style: inset;
+    border-color: darkred;
+
+}
+
+#butt3{
+    background-color: lightgreen;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: double;
+    border-color: orangered;
+    margin-bottom: 25px;
+}
+
+#butt3:hover{
+    box-shadow: 15px 15px 15px;
+    transform: translate(10px 10px);
+    transition: 1.2s;
+    border-style: inset;
+    border-color: darkred;
+
+}
+
