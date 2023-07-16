@@ -123,7 +123,7 @@ h2:hover{
     background-color:lightgreen;
     border-radius: 10px;
     border-width: 10px;
-    border-style: double;
+    border-style:ridge;
     border-color: orangered;
 }
 
@@ -145,7 +145,7 @@ h2:hover{
     background-color: lightgreen;
     border-radius: 10px;
     border-width: 10px;
-    border-style: double;
+    border-style: ridge;
     border-color: orangered;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -170,7 +170,7 @@ h2:hover{
     background-color: lightgreen;
     border-radius: 10px;
     border-width: 10px;
-    border-style: double;
+    border-style: ridge;
     border-color: orangered;
     margin-bottom: 25px;
 }
