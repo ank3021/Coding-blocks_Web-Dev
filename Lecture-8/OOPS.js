@@ -1,5 +1,6 @@
 
 //Object can be declared using the object literal method.
+
 let obj = {
     name:"Ankit Kashyap",
     age:20,
@@ -17,8 +18,11 @@ console.log(obj.func());
 
 
 //Object can be declared using the object constructor method.
+
 function name(first_name, last_name)
 {
+    this.first_name = first_name;
+    this.last_name = last_name;
     console.log(first_name + " " + last_name);
 }
 
@@ -35,6 +39,7 @@ console.log("This is the highest score of class " + t.standard + ": " + t.highes
 
 
 //Object can be declared using the class method
+
 class fruit{
     constructor(name, taste, color){
         this.name = name;
